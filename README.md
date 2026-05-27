@@ -1,12 +1,20 @@
 ## Video de la demostración inicial (Actualmente tiene una interfaz diferente)
 https://youtu.be/Lm8NMB2FANU?si=9VJc6FTPWRsMF1CJ
 
-
 ## Capturas del sistema
 
-![Inicio](Captura de pantalla 2026-05-26 184619.png)
+### Página principal
+![Inicio](inicio.png)
 
-![Panel de inicio de sesión](Captura de pantalla 2026-05-26 184638.png)
+### Inicio de sesión
+![Login](iniciodesesion.png)
+
+## Gestion de recetas
+![Panel](gestionderecetas.png)
+
+## Gestion de usuarios
+![Usuarios](gestiondeusuarios.png)
+
 # Sistema Web de Recetas
 
 ## Descripción
