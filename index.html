@@ -1,0 +1,1057 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Index - Hotcakes Judis</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/images.jpg" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Maven+Pro:wght@400&family=Nunito:wght@300;400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: iPortfolio
+  * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
+  * Updated: Jun 29 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+  <script src="bootstraps.js"></script>
+</head>
+
+<body class="index-page">
+  <div ng-app="myApp" ng-controller="controlador">
+
+  <header id="header" class="header dark-background d-flex flex-column">
+    <i class="header-toggle d-xl-none bi bi-list"></i>
+
+    <div class="profile-img">
+      <img src="assets/img/Kawaii Pancakes Cute Hotcakes Desing Sticker.jpg" alt="" class="img-fluid rounded-circle">
+    </div>
+
+
+
+    <a href="index.html" class="logo d-flex align-items-center justify-content-center">
+      <!-- Uncomment the line below if you also wish to use an image logo -->
+      <!-- <img src="assets/img/logo.png" alt=""> -->
+      <h1 class="sitename">Hotcakes Judis</h1>
+    </a>
+<div class="social-links text-center">
+  
+  <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+  <a href="https://www.instagram.com/isabel_enriquez0/" target="_blank" class="instagram">
+    <i class="bi bi-instagram"></i>
+  </a>
+   <a href="https://www.tiktok.com/@0mnyg" target="_blank" class="tiktok">
+    <i class="bi bi-tiktok"></i>
+  </a>
+  <a href="https://www.tiktok.com/@0mnyg" target="_blank" class="youtube">
+    <i class="bi bi-youtube"></i>
+  </a>
+</div>
+
+  <!-- Menu -->
+  <nav id="navmenu" class="navmenu">
+    <ul>
+      <li><a href="#hero" class="active"><i class="fas fa-house-user navicon"></i>Inicio</a></li>
+      <li><a href="#" class="active" data-toggle="modal" data-target="#login"><i class="fas fa-house-chimney navicon"></i>Entrar</a></li>
+      <li><a href="#" data-toggle="modal" data-target="#registro">
+      <i class="fas fa-user-plus navicon"></i> Registrarse
+    </a></li>
+      <li><a href="#about"><i class="fas fa-mug-hot navicon"></i>Sobre Nosotros</a></li>
+      <li><a href="#portfolio"><i class="fas fa-utensils navicon"></i>Hotcakes</a></li>
+      <li><a href="#contact">
+      <i class="fas fa-envelope navicon"></i> Contacto
+
+    </a></li>
+  </nav>
+
+  </header>
+
+  <style>
+    body {
+      background-color: #ffc46c;
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-start;
+      height: 100vh;
+    }
+
+    .navmenu {
+      background-color: transparent;
+      padding: 20px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    .navmenu ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      align-items: flex-start;
+    }
+
+    .navmenu a {
+      text-decoration: none;
+      color: #6b3e26;
+      background-color: #f8d6ae;
+      padding: 8px 14px; /* Botones más pequeños */
+      border-radius: 10px; /* Bordes redondeados */
+      font-weight: bold;
+      font-size: 14px; /* Botones más pequeños */
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      transition: all 0.3s ease;
+      box-shadow: 0 0 0 transparent;
+    }
+
+    .navmenu a:hover {
+      background-color: #e58c3a;
+      color: white;
+      box-shadow: 0 0 12px #ffa94d, 0 0 5px #ffcb7f;
+      transform: translateY(-2px);
+    }
+
+    .navicon {
+      font-size: 18px; /* Íconos un poco más pequeños */
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Ventanas modales -->
+  
+
+  <!-- The Modal -->
+<div class="modal fade" id="login" data-backdrop="static">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+           
+<!-- Modal para ADMIN con pestañas estilo hotcakes -->
+<div id="adminModal" class="modal fade" tabindex="-1" role="dialog" style="z-index: 9999;">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content" style="background: #fff9f3; border-radius: 15px; border: 2px solid #ffd9a0; box-shadow: 0 0 10px #e4b17d;">
+
+      <div class="modal-header" style="background-color: #ffc266; border-top-left-radius: 15px; border-top-right-radius: 15px;">
+        <h5 class="modal-title" style="color: #4b2c20; font-weight: bold;">
+          🥞 Panel del Administrador
+        </h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Cerrar">
+          <span aria-hidden="true" style="color: #4b2c20;">&times;</span>
+        </button>
+      </div>
+
+      <div class="modal-body" style="max-height: 70vh; overflow-y: auto;">
+
+        <p style="font-size: 16px; color: #4b2c20;">
+          Bienvenido <strong>{{nombre}}</strong>. Aquí puedes gestionar recetas y usuarios 🍯
+        </p>
+
+        <!-- Pestañas -->
+        <ul class="nav nav-tabs mb-3" id="adminTabs" role="tablist">
+          <li class="nav-item">
+            <a class="nav-link active" id="agregar-tab" data-toggle="tab" href="#agregar" role="tab">➕ Agregar receta</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="recetas-tab" data-toggle="tab" href="#recetas" role="tab">📖 Ver recetas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="usuarios-tab" data-toggle="tab" href="#usuarios" role="tab">👤 Usuarios</a>
+          </li>
+        </ul>
+
+        <!-- Contenido de las pestañas -->
+        <div class="tab-content" id="adminTabsContent">
+          <!-- Pestaña Agregar Receta -->
+          <div class="tab-pane fade show active" id="agregar" role="tabpanel">
+            <form ng-submit="agregarReceta()" class="mb-4">
+              <div class="form-group">
+                <input type="text" class="form-control mb-2" ng-model="nuevaReceta.titulo" placeholder="Título" required>
+                <textarea class="form-control mb-2" rows="2" ng-model="nuevaReceta.descripcion" placeholder="Descripción" required></textarea>
+                <textarea class="form-control mb-2" rows="4" ng-model="nuevaReceta.ingredientes" placeholder="Ingredientes" required></textarea>
+                <textarea class="form-control mb-3" rows="4" ng-model="nuevaReceta.instrucciones" placeholder="Instrucciones" required></textarea>
+
+                     <!-- Campo para subir imagen -->
+      <input type="file" class="form-control mb-3" file-model="nuevaReceta.imagen" required>
+
+      <button type="submit" class="btn btn-warning text-white" style="background-color: #e8a94f;">
+        Guardar receta
+      </button>
+    </div>
+  </form>
+</div>
+
+          <!-- Pestaña Ver Recetas -->
+<div class="tab-pane fade" id="recetas" role="tabpanel">
+  <ul class="list-group mb-4">
+    <li class="list-group-item d-flex justify-content-between align-items-center" ng-repeat="r in recetas">
+      <div>
+        <strong>{{ r.titulo }}</strong><br>
+        <small>{{ r.descripcion }}</small>
+      </div>
+      <button class="btn btn-sm btn-danger" ng-click="eliminarReceta(r.id)">Eliminar</button>
+    </li>
+  </ul>
+</div>
+
+          <!-- Pestaña Usuarios -->
+          <div class="tab-pane fade" id="usuarios" role="tabpanel">
+            <ul class="list-group">
+              <li class="list-group-item d-flex justify-content-between align-items-center" ng-repeat="u in usuarios">
+                {{u.nombre}} ({{u.correo}})
+                <button class="btn btn-sm btn-outline-danger" ng-click="eliminarUsuario(u.correo)">Eliminar</button>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+   
+<!-- Modal body -->
+
+     <!-- Modal Body estilo Hotcakes -->
+<div class="modal-body" style="background: #fff5e6; border-radius: 10px;">
+  <div class="text-center mb-3">
+    <img src="assets/img/Kawaii Pancakes Cute Hotcakes Desing Sticker.jpg" alt="Hotcake" width="80">
+    <h4 style="color: #d86c0b; font-weight: bold; margin-top: 10px;">🍯 Inicia sesión para disfrutar tus hotcakes</h4>
+  </div>
+
+  <div class="was-validated">
+    <div class="form-group mb-3">
+      <label for="uname" class="form-label"><strong>🍽️ Nombre de usuario:</strong></label>
+      <input type="text" class="form-control" id="uname" placeholder="Introduce tu usuario" name="uname" ng-model="usuario" required style="background-color: #fff8e1;">
+    </div>
+
+    <div class="form-group mb-3">
+      <label for="pwd" class="form-label"><strong>🔒 Clave:</strong></label>
+      <input type="password" class="form-control" id="pwd" placeholder="Clave secreta" name="pswd" ng-model="clave" required style="background-color: #fff8e1;">
+    </div>
+  </div>
+</div>
+
+
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <button 
+          type="button" 
+          class="btn btn-primary" 
+          ng-click="login()">Enviar
+        </button>
+
+        <button 
+          type="button" 
+          class="btn btn-danger" 
+          data-dismiss="modal">Cerrar
+        </button>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+
+<!-- VENTANA MODAL usuario-->
+<div class="modal fade" id="successModal" data-backdrop="static" tabindex="-1" aria-labelledby="successModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content hotcake-modal">
+      <div class="modal-header">
+        <h5 class="modal-title">
+          <span class="emoji-bounce">🥞</span> ¡Bienvenido {{nombre}}!
+        </h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+      </div>
+      <div class="modal-body">
+        <p><strong>🍽️ Nombre:</strong> {{nombre}}</p>
+        <p><strong>🍯 Apellido Paterno:</strong> {{ap}}</p>
+        <p><strong>🍓 Apellido Materno:</strong> {{am}}</p>
+        <p class="mt-3 text-muted">¡Esperamos que disfrutes nuestras recetas de hotcakes! 😋</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-warning" data-bs-dismiss="modal" ng-click="cerrar(successModal)">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- FIN DE VENTANA MODAL -->
+
+
+<!-- VENTANA MODAL REGISTRO  -->
+<div class="modal fade" id="registro" data-backdrop="static">  
+<div class="modal-dialog"> 
+        <div class="modal-content"> 
+    <!-- Modal Header --> 
+  <div class="modal-header" style="background: #ffd0e7;"> 
+    <table width="100%" border="0"> 
+      <tr>     
+       <td width="100%" align="right" valign="top"> 
+         </td> 
+         </tr> 
+        <tr> 
+        <td width="75%" align="center" valign="middle"> 
+        <img src="assets/img/ujedT.png" alt="" title="" width="90px"> 
+        <img src="assets/img/logofaz.png" alt="" title="" width="80px"><br> 
+        <font size="6" color="d10d58"> 
+        <b>Hotcakes</b> 
+        </font> 
+        </td> 
+        </tr> 
+        </table> 
+        </div> 
+  
+<!-- Modal body -->
+<div class="modal-body">
+    <center>
+        <font size="6" color="#d10d58">
+            <strong>¡REGISTRATE!</strong>
+        </font>
+    </center>
+    <div class="wagile_contact_left">
+        <form action="#" class="was-validated">
+            <div class="form-group">
+                <table width="100%" border="0">
+                    <tr>
+                      <!-- PARA LOS DATOS DE REGISTAR USUARIO -->
+                        <td valign="center">
+                            <div class="form-group">
+                                <input ng-model="nombre" class="form-control form-control-sm" type="text" name="nombre" placeholder="Nombre(s)" required>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td valign="center">
+                            <div class="form-group">
+                                <input ng-model="ap" class="form-control form-control-sm" type="text" name="ap" placeholder="Apellido Paterno" required>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td valign="center">
+                            <div class="form-group">
+                                <input ng-model="am" class="form-control form-control-sm" type="text" name="am" placeholder="Apellido Materno" required>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td valign="center">
+                            <div class="form-group">
+                                <input ng-model="correo" class="form-control form-control-sm" type="email" name="correo" placeholder="correo" required>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td valign="center">
+                            <div class="form-group">
+                                <input ng-model="celular" class="form-control form-control-sm" type="tel" name="celular" placeholder="celular" required>
+                            </div>
+                        </td>
+                    </tr>
+</table>
+</div>
+</form>
+</div>
+</div>
+
+
+           <!-- Modal footer --> 
+           <div class="modal-footer"> 
+                <button  
+                 type="button"  
+                 class="btn btn-danger btn-sm"  
+                 data-dismiss="modal"  
+                 ng-click="limpiarRegistro()">Cancelar 
+                </button> 
+             <button  
+              type="button"  
+              class="btn btn-success btn-sm"  
+              data-dismiss="modal"  
+              ng-click="registrar()">Registrar 
+             </button> 
+             </div> 
+               </div> 
+       </div> 
+   </div>
+
+
+
+
+<!-- Fin de ventanas modales -->
+
+
+
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section dark-background">
+
+      <img src="assets/img/f27b2225f7413cca9d1b16141275f0a2.jpg" alt="" data-aos="fade-in" class="">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <h2>Hot Cakes Judis</h2>
+        <p>Hotcakes, <span class="typed" data-typed-items="de Chocolate, Clasicos, Saludables">Designer</span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span></p>
+      </div>
+
+    </section>
+
+
+  <!-- Sección de búsqueda y recetas -->
+<section class="container my-5" ng-controller="controlador">
+  <h2 class="text-center text-warning mb-4">🍯 Recetas Deliciosas</h2>
+
+  <!-- Botón para abrir favoritos -->
+<button class="btn btn-outline-warning" ng-click="obtenerFavoritos()">
+  ⭐ Ver Favoritos
+</button>
+
+<!-- Modal de favoritos -->
+<div class="modal fade" id="modalFavoritos" tabindex="-1" aria-labelledby="modalFavoritosLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+
+      <div class="modal-header">
+        <h5 class="modal-title" id="modalFavoritosLabel">⭐ Mis Recetas Favoritas</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+      </div>
+
+      <div class="modal-body">
+        <div ng-if="favoritos.length === 0">
+          <p class="text-center">😕 No tienes recetas favoritas todavía.</p>
+        </div>
+
+        <div ng-if="favoritos.length > 0">
+          <div ng-repeat="receta in favoritos" class="card mb-3">
+            <div class="card-body d-flex justify-content-between align-items-center">
+              <div>
+                <h5 class="card-title">{{ receta.titulo }}</h5>
+                <p class="card-text">{{ receta.descripcion }}</p>
+              </div>
+              <div class="d-flex flex-column gap-2">
+                <button class="btn btn-sm btn-outline-primary" ng-click="verReceta(receta)">👁️ Ver más</button>
+                <button class="btn btn-sm btn-outline-danger" ng-click="eliminarFavorito(receta.id)">🗑️ Quitar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+  <!-- Barra de búsqueda -->
+  <div class="d-flex justify-content-center mb-4">
+    <div class="input-group" style="max-width: 500px;">
+      <span class="input-group-text bg-warning text-white">🔍</span>
+      <input type="text" class="form-control form-control-sm" placeholder="Buscar por título o descripción..." ng-model="busquedaReceta">
+    </div>
+  </div>
+
+  <!-- Tarjetas de recetas -->
+  <div class="row justify-content-center">
+    <div class="col-md-6 col-lg-5 mb-4" ng-repeat="receta in recetasPublicas | filter:busquedaReceta">
+      <div class="card shadow-lg border-warning h-100" style="background: #fff8e1;">
+        <div class="card-body">
+          <h5 class="card-title text-warning fw-bold">🥞 {{ receta.titulo }}</h5>
+          <p class="card-text text-muted">{{ receta.descripcion }}</p>
+          <div class="d-flex justify-content-between align-items-center mt-3">
+            <button class="btn btn-outline-danger btn-sm" ng-click="guardarFavorito(receta.id)">
+              ❤️ Favorito
+            </button>
+            <button class="btn btn-outline-primary btn-sm" ng-click="verReceta(receta)">
+              👁️ Ver más
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Tarjetas estilo Hotcakes brillosas sin imagen -->
+<div class="row justify-content-center">
+  <div class="col-md-10 mb-4" ng-repeat="receta in recetas | filter:busquedaReceta">
+    <div class="tarjeta-hotcake card p-4 rounded-4 shadow border-0" ng-click="receta.expandida = !receta.expandida">
+      <div class="d-flex align-items-center mb-2">
+        <div class="emoji-hotcake me-2">🥞</div>
+        <h4 class="mb-0 fw-bold text-brown">{{ receta.titulo }}</h4>
+      </div>
+      <p class="text-muted small mb-1">
+        {{ receta.descripcion }}
+      </p>
+      
+      <div class="collapse mt-2" ng-class="{ show: receta.expandida }">
+        <hr>
+        <p><strong>Ingredientes:</strong> {{ receta.ingredientes }}</p>
+        <p><strong>Instrucciones:</strong> {{ receta.instrucciones }}</p>
+      </div>
+
+      <div class="d-flex justify-content-end mt-3">
+        <button class="btn btn-warning btn-sm rounded-pill px-3 me-2 shadow-sm" ng-click="$event.stopPropagation(); guardarFavorito(receta.id)">
+          ❤️ Favorito
+        </button>
+        <button class="btn btn-primary btn-sm rounded-pill px-3 shadow-sm" ng-click="$event.stopPropagation(); verReceta(receta)">
+          👁️ Ver más
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Modal Receta con diseño atractivo -->
+<div class="modal fade" id="modalReceta" tabindex="-1" aria-labelledby="modalRecetaLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content rounded-4 shadow" style="background-color: #fffaf2;">
+      <div class="modal-header bg-warning-subtle rounded-top-4">
+        <h5 class="modal-title text-dark fw-bold" id="modalRecetaLabel">{{ recetaSeleccionada.titulo }}</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+      </div>
+      <div class="modal-body">
+        <p><strong>🥞 Descripción:</strong> {{ recetaSeleccionada.descripcion }}</p>
+        <p><strong>🧂 Ingredientes:</strong></p>
+        <ul>
+          <li ng-repeat="item in recetaSeleccionada.ingredientes.split(',')">{{ item.trim() }}</li>
+        </ul>
+        <p><strong>👨‍🍳 Instrucciones:</strong></p>
+        <ol>
+          <li ng-repeat="paso in recetaSeleccionada.instrucciones.split('.') track by $index" ng-if="paso.trim().length > 0">
+            {{ paso.trim() }}.
+          </li>
+        </ol>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary rounded-pill" data-bs-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Sobre nosotros</h2>
+        <p>En Hotcakes Judis, nos especializamos en ofrecer hotcakes irresistibles, preparados con ingredientes frescos y de la más alta calidad. Nuestra pasión por la cocina y el compromiso con nuestros clientes nos han llevado a convertirnos en el lugar favorito para disfrutar de un desayuno o snack delicioso. ¡Déjate sorprender por el sabor y la textura de nuestros hotcakes!</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4 justify-content-center">
+          <div class="col-lg-4">
+            <img src="assets/img/192866263aabb80154cb2575a6ba216d.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-8 content">
+            <h2>Hotcakes Gourmet y más.</h2>
+            <p class="fst-italic py-3">
+              Elaboramos cada hotcake con amor y dedicación, utilizando recetas tradicionales y un toque especial que los hace únicos.
+            </p>
+            <div class="row">
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>28 oct 2004</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong> <span>www.example.com</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+52 8721142028</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Torreón, MEX</span></li>
+                </ul>
+              </div>
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>20</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Master</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>rmi78590@gmail.com</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Available</span></li>
+                </ul>
+              </div>
+            </div>
+            <p class="py-3">
+              Nos enorgullece ofrecer una experiencia culinaria inolvidable. Cada hotcake está preparado con ingredientes frescos y un toque casero que encanta a todos nuestros clientes. ¡Te esperamos para que descubras por qué nuestros hotcakes son los mejores de la ciudad!
+            </p>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /About Section -->
+
+    <!-- Stats Section -->
+    <section id="stats" class="stats section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item">
+              <i class="bi bi-emoji-smile"></i>
+              <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"></span>
+              <p><strong>Happy Clients</strong> <span>Te consentimos con nuestros hotcakes</span></p>
+            </div>
+          </div><!-- End Stats Item -->
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item">
+              <i class="bi bi-journal-richtext"></i>
+              <span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="1" class="purecounter"></span>
+              <p><strong>Recetas</strong> <span>Tenemos las recetas más deliciosas para ti.</span></p>
+            </div>
+          </div><!-- End Stats Item -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Stats Section -->
+
+  
+
+   
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio section light-background">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>RECETAS</h2>
+        <p>Realiza nuestras recetas.</p>
+      </div><!-- End Section Title -->
+
+
+
+      <!--PARTE DE LOS FILTROS PARA LAS IMG DE HOTCAKES-->
+
+      
+
+      <div class="container">
+
+        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+
+          <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="90">
+            <li data-filter="*" class="filter-active">TODOS</li>
+            <li data-filter=".filter-app">App</li>
+            <li data-filter=".filter-product">Product</li>
+            <li data-filter=".filter-DELICIOSOS">DELICIOSOS</li>
+            <li data-filter=".filter-SALUDABLES">SALUDABLES</li>
+
+            
+          </ul><!-- End Portfolio Filters -->
+
+          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/classic-buttermilk-pancakes.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>HOTCAKE CLASICO</h4>
+                  <p>!Comienza a prepararlo¡</p>
+                  <a href="assets/img/portfolio/classic-buttermilk-pancakes.jpg" title="HOTCAKE CLASICO" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-DELICIOSOS">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/chocolate-pancakes-7.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>HOTCAKE CHOCOLATE</h4>
+                  <p>!Comienza a prepararlo¡</p>
+                  <a href="assets/img/portfolio/chocolate-pancakes-7.jpg" title="HOTCAKE CHOCOLATE" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/download.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>HOTCAKE DE PLATANO</h4>
+                  <p>!Comienza a prepararlo¡</p>
+                  <a href="assets/img/portfolio/download.jpg" title="HOTCAKE DE PLATANO" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-SALUDABLES">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/hotcakes-de-avena_large.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>HOTCAKE DE AVENA</h4>
+                  <p>!Comienza a prepararlo¡</p>
+                  <a href="assets/img/portfolio/hotcakes-de-avena_large.jpg" title="HOTCAKES DE AVENA" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/Hot-cakes-queso-salsa-vainilla.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>HOTCAKE DE QUESO CREMA</h4>
+                  <p>!Comienza a prepararlo¡</p>
+                  <a href="assets/img/portfolio/Hot-cakes-queso-salsa-vainilla.jpg" title="HOTCAKE DE QUESO CREMA" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-DELICIOSOS">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/souffle-pancakes-16-jpg.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>HOTCAKE SOUFFLÉ JAPONES</h4>
+                  <p>!Comienza a prepararlo¡</p>
+                  <a href="assets/img/portfolio/souffle-pancakes-16-jpg.jpg" title="HOTCAKE SOUFFLÉ JAPONES" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/hotcake zanahoria.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>HOTCAKE DE ZANAHORIA</h4>
+                  <p>!Comienza a prepararlo¡</p>
+                  <a href="assets/img/portfolio/hotcake zanahoria.jpg" title="HOTCAKE DE ZANAHORIA" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-SALUDABLES">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/hotcakes veganos de coco.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>HOTCAKES VEGANOS DE COCO</h4>
+                  <p>!Comienza a prepararlo¡</p>
+                  <a href="assets/img/portfolio/hotcakes veganos de coco.jpg" title="HOTCAKES VEGANOS DE COCO" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-DELICIOSOS">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/hot-cakes-de-colores-d-gari.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>HOTCAKE DE COLORES</h4>
+                  <p>!Comienza a prepararlo</p>
+                  <a href="assets/img/portfolio/hot-cakes-de-colores-d-gari.jpg" title="HOTCAKE DE COLORES" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+
+          </div><!-- End Portfolio Container -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Portfolio Section -->
+
+    
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials section light-background">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>RESEÑAS</h2>
+        <p>¿Qué opinan nuestros clientes?</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": {
+                "delay": 5000
+              },
+              "slidesPerView": "auto",
+              "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+              },
+              "breakpoints": {
+                "320": {
+                  "slidesPerView": 1,
+                  "spaceBetween": 40
+                },
+                "1200": {
+                  "slidesPerView": 3,
+                  "spaceBetween": 1
+                }
+              }
+            }
+          </script>
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>¡Los hotcakes más esponjosos y deliciosos que he probado. ¡Definitivamente volveré por más!</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+                <img src="assets/img/testimonials/85611d2f4550ed7c38ceb6ae342029ee.jpg" class="testimonial-img" alt="">
+                <h3>Saul Gomez</h3>
+                <h4> usuario nuevo </h4>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Una experiencia culinaria excepcional. Los hotcakes tienen el equilibrio perfecto de sabor y textura.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+                <img src="assets/img/testimonials/1f3c8732ed7fad25d10823973f0b1c88.jpg" class="testimonial-img" alt="">
+                <h3>Sara Wilsson</h3>
+                <h4>Jotkis</h4>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Desde el primer bocado, supe que estos hotcakes serían mis favoritos.¡Exquisitos!</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+                <img src="assets/img/testimonials/2e313f6d4659bd9895c9dfab71196954.jpg" class="testimonial-img" alt="">
+                <h3>Jena Karlis</h3>
+                <h4>Usuario</h4>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>¡Increíbles! Los mejores hotcakes que he disfrutado en mucho tiempo. Altamente recomendados.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+                <img src="assets/img/testimonials/03f5c168208b30aeb8cbfd32801f9002.jpg" class="testimonial-img" alt="">
+                <h3>Matt Brandon</h3>
+                <h4>Freelancer</h4>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Ambiente acogedor y hotcakes que saben a gloria. ¡Una combinación ganadora!</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+                <img src="assets/img/testimonials/c0d4ed52807cac2b76da6e362da5b7b9.jpg" class="testimonial-img" alt="">
+                <h3>Joooosue</h3>
+                <h4>usuario</h4>
+              </div>
+            </div><!-- End testimonial item -->
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+
+    </section><!-- /Testimonials Section -->
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Contactanos</h2>
+        <p>Estamos a tus ordenes 🧸</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-5">
+
+            <div class="info-wrap">
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
+                <i class="bi bi-geo-alt flex-shrink-0"></i>
+                <div>
+                  <h3>Dirección</h3>
+                  <p>Torreón, zona centro.</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
+                <i class="bi bi-telephone flex-shrink-0"></i>
+                <div>
+                  <h3>Llamanos</h3>
+                  <p>+52 8721142028</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
+                <i class="bi bi-envelope flex-shrink-0"></i>
+                <div>
+                  <h3>Nuestro correo</h3>
+                  <p>hotcakesjudi@gmail.com</p>
+                </div>
+              </div><!-- End Info Item -->
+            
+            <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d14378.339856103274!2d-103.347178!3d25.7181622!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2smx!4v1743441620608!5m2!1ses-419!2smx" width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+          </div>
+
+          <div class="col-lg-7">
+            <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+              <div class="row gy-4">
+
+                <div class="col-md-6">
+                  <label for="name-field" class="pb-2">Tu nombre</label>
+                  <input type="text" name="name" id="name-field" class="form-control" required="">
+                </div>
+
+                <div class="col-md-6">
+                  <label for="email-field" class="pb-2">Tu correo</label>
+                  <input type="email" class="form-control" name="email" id="email-field" required="">
+                </div>
+
+          
+                <div class="col-md-12">
+                  <label for="message-field" class="pb-2">Mensaje</label>
+                  <textarea class="form-control" name="message" rows="10" id="message-field" required=""></textarea>
+                </div>
+
+                <div class="col-md-12 text-center">
+                  <div class="loading">Esperaaaaaaaa</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Tu mensaje ha sido enviado con exito. Gracias!</div>
+
+                  <button type="submit">Enviar mensaje</button>
+                </div>
+
+              </div>
+            </form>
+          </div><!-- End Contact Form -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Contact Section -->
+
+    
+
+  </main>
+
+  
+
+  <footer id="footer" class="footer position-relative light-background">
+
+    <div class="container">
+      <div class="copyright text-center ">
+        <p>© <span>Copyright</span> <strong class="px-1 sitename">iPortfolio</strong> <span>All Rights Reserved</span></p>
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you've purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> Distributed by <a href="https://themewagon.com">ThemeWagon</a>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+
+</div>
+</body>
+
+</html>
