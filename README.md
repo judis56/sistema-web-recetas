@@ -1,4 +1,4 @@
-##Video de la demostración inicial (Actualmente tiene una interfaz diferente)
+## Video de la demostración inicial (Actualmente tiene una interfaz diferente)
 https://youtu.be/Lm8NMB2FANU?si=9VJc6FTPWRsMF1CJ
 
 # Sistema Web de Recetas
