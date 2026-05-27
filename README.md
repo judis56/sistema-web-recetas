@@ -10,10 +10,10 @@ https://youtu.be/Lm8NMB2FANU?si=9VJc6FTPWRsMF1CJ
 ![Login](iniciodesesion.png)
 
 ## Gestion de recetas
-![Panel](gestionderecetas.png)
+![Panel](gestionrecetas.png)
 
 ## Gestion de usuarios
-![Usuarios](gestiondeusuarios.png)
+![Usuarios](gestionusuarios.png)
 
 # Sistema Web de Recetas
 
